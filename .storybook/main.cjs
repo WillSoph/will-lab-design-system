@@ -17,11 +17,11 @@ module.exports = {
   "features": {
     "storyStoreV7": true
   },
-  viteFinal: (config, { configType }) => {
-    if (configType === 'PRODUCTION') {
-      config.base = '/will-lab-design-system'
-    }
+  // viteFinal: (config, { configType }) => {
+  //   if (configType === 'PRODUCTION') {
+  //     config.base = '/will-lab-design-system'
+  //   }
 
-    return config
-  }
+  //   return config
+  // }
 }
