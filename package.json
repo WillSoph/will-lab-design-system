@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "start": "react-scripts --max_old_space_size=4096 start",
-    "build": "tsc && vite build --max_old_space_size=4096 build",
+    "build": "react-scripts --max_old_space_size=4096 build",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
