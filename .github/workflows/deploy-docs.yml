@@ -22,7 +22,9 @@ jobs:
         run: npm ci --legacy-peer-deps
 
       - name: Build Storybook
-        run: npm run build-storybook
+        run: |
+          export NODE_OPTIONS="--max_old_space_size=4096"
+          npm run build-storybook
 
       - name: Deploy Storybook
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
