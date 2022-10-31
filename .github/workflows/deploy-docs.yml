@@ -27,4 +27,5 @@ jobs:
       - name: Deploy Storybook
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
+          NODE_OPTIONS: "--max_old_space_size=4096"
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
