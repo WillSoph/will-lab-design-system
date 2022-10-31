@@ -1,0 +1,2 @@
+var a=Object.defineProperty;var m=(t,o)=>a(t,"name",{value:o,configurable:!0});import{$ as e}from"./index.module.ee4e768d.js";import{c as s}from"./clsx.m.256e9345.js";import{j as x}from"./jsx-runtime.39e1c5d5.js";function g({size:t="md",children:o,asChild:c,className:r}){return x(c?e:"h2",{className:s("text-gray-100 font-bold font-sans",{"text-lg":t==="sm","text-xl":t==="md","text-2xl":t==="lg"},r),children:o})}m(g,"Heading");export{g as H};
+//# sourceMappingURL=Heading.b4645fea.js.map

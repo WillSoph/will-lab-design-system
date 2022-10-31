@@ -1,0 +1,2 @@
+var s=Object.defineProperty;var c=(o,t)=>s(o,"name",{value:t,configurable:!0});import{$ as e}from"./index.module.ee4e768d.js";import{c as a}from"./clsx.m.256e9345.js";import{j as m}from"./jsx-runtime.39e1c5d5.js";function x({children:o,asChild:t,className:r,...n}){return m(t?e:"button",{className:a("py-3 px-4 bg-cyan-500 rounded font-semibold text-black text-sm w-full transition-colors hover:bg-cyan-300 focus:ring-2 ring-white",r),...n,children:o})}c(x,"Button");export{x as B};
+//# sourceMappingURL=Button.c4b97cc1.js.map
